@@ -1,0 +1,21 @@
+.body-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-width {
+    width: 430px;
+}
+
+@media screen and (max-width: 767px) {
+    .card-width {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    .card-width {
+        width: 550px;
+    }
+}

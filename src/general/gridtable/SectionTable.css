@@ -1,0 +1,44 @@
+.table-container {
+    overflow-x: auto;
+}
+.hotspot-list-table {
+    border-radius: 18.656px;
+    background: rgba(32, 32, 32, 0.52);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.hotspot-list-table thead tr th {
+    color: rgba(255, 255, 255, 0.39);
+    padding: 20px 20px;
+    text-align: left;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.hotspot-list-table tbody tr td {
+    padding: 15px 20px;
+}
+
+.hotspot-list-table tbody tr:nth-child(odd) {
+    border-radius: 7px;
+    background: rgba(52, 52, 52, 0.22);
+}
+
+.hotspot-list-table tbody tr:nth-child(even) {
+    background: transparent;
+}
+
+.hotspot-list-table tbody tr:nth-child(odd) td:first-child {
+    border-radius: 7px 0 0 7px;
+}
+
+.hotspot-list-table tbody tr:nth-child(odd) td:last-child {
+    border-radius: 0 7px 7px 0;
+}
+
+.table-container {
+    overflow-x: auto;
+}

@@ -1,0 +1,75 @@
+.custom-hotspot-search:focus {
+    border: 1px solid #1ea707;
+}
+
+.custom-hotspot-search {
+    border-radius: 18.721px;
+    border: 0.852px solid rgba(78, 78, 78, 0.36);
+    background: rgba(0, 0, 0, 0.63);
+    backdrop-filter: blur(2.5px);
+}
+
+.custom-hotspot-search-input {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.61);
+    box-shadow: none !important;
+    border: none;
+    
+    font-feature-settings: "tnum", "tnum";
+    background-image: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    margin: 0;
+    min-width: 0;
+    padding: 4px 11px;
+    position: relative;
+    transition: all .3s;
+    width: 100%;
+}
+
+.custom-hotspot-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.custom-hotspot-search-input:focus {
+    border: none !important;
+}
+
+.custom-hotspot-search-input:focus-visible {
+    border: none !important;
+}
+
+.custom-hotspot-search-input:hover {
+    border: none !important
+}
+
+.custom-hotspot-search-input:active {
+    border: none !important;
+}
+
+.custom-hotspot-search:hover {
+    border: 1px solid white;
+}
+
+.custom-hotspot-search:focus {
+    border: 1px solid #1ea707;
+}
+
+.grid-item-text {
+    border-bottom: 1px solid rgba(116, 116, 116, 0.14);
+}
+
+.custom-base-action {
+    border-radius: 1px 2px 24px 24px;
+    background: rgba(32, 32, 32, 0.49);
+}
+
+.hotspot-custom-grid {
+    border-radius: 24px;
+    background: rgba(32, 32, 32, 0.49);
+}
