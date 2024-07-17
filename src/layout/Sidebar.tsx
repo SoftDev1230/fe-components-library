@@ -13,7 +13,7 @@ type SidebarProps = {
 const Sidebar = ({isSidebarOpen, toggleSidebar, children, blackBackground, name, title}: SidebarProps) => {
     return (
         <aside
-            className={`overflow-hidden sidebar-custom-height fixed inset-y-0 left-0 w-full lg:w-[20%] xl:w-[22%] lg:ml-[1%] lg:my-[20px] lg:mr-[1%] transition-transform duration-300 transform rounded-[20px] border-[0.9px]
+            className={`overflow-hidden sidebar-custom-height fixed inset-y-0 left-0 w-full lg:w-[20%] xl:w-[23%] lg:ml-[1%] lg:my-[20px] lg:mr-[1%] transition-transform duration-300 transform rounded-[20px] border-[0.9px]
               ${!!blackBackground ? 'custom-sidebar-style-rtk' : 'custom-sidebar-style'}
               ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:left-0
               ${isSidebarOpen ? "lg:translate-y-0" : "-translate-y-full"} lg:translate-y-0`}>

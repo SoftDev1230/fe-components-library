@@ -1,7 +1,7 @@
 import React from "react";
 
 export const PageTitle = (props: { icon: string, title: string }) =>
-    <h1 className="flex items-center justify-center text-center gap-x-4 text-[24px]">
+    <h1 className="flex items-center justify-center text-center gap-x-4 text-[24px] ml-[43px]">
         <PageTitleIcon icon={props.icon}/> {props.title}</h1>
 const PageTitleIcon = (props: { icon: string }) =>
     <div

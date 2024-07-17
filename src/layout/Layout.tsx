@@ -35,7 +35,7 @@ const Layout = ({ name, shared, sidebar, sidebarBg = true, main, mobileSidebar, 
     };
 
     return (
-        <div className="flex flex-col justify-between h-screen overflow-hidden relative">
+        <div className="flex flex-col justify-between h-screen overflow-hidden relative w-max-[1920px]">
             <div className="overflow-auto z-50 h-full">
                 <Sidebar
                     isSidebarOpen={isSidebarOpen}
