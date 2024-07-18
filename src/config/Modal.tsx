@@ -38,7 +38,7 @@ export const ModalProvider = (props: { children: any }) => {
             {props.children}
             {modalContent && (
                 <div
-                    className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm">
+                    className="fixed inset-0 z-[2000] flex items-center justify-center backdrop-blur-sm">
                     <div className="relative rounded-[29px] bg-[#1b1b1b] border border-[#4E4E4E] border-opacity-35">
                         <CloseButton hideModal={hideModal} />
                         <div className="overflow-y-auto max-h-[90vh] px-3 lg:px-10 xl-px-[50px] pt-6 pb-6 lg:pt-12 lg:pb-[25px]">
