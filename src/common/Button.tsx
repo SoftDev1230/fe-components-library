@@ -8,7 +8,7 @@ type ButtonStyle = {
 } | { type: 'disabled' }
 
 
-type PaddingType = 'big' | 'width' | 'normal' | 'small';
+type PaddingType = 'big' | 'width' | 'normal' | 'small' | 'default';
 
 interface ButtonProps {
     label: string;
@@ -35,10 +35,11 @@ const buttonTypeClasses: { [key in ButtonType]: string } = {
 };
 
 const paddingTypeClasses: { [key in PaddingType]: string } = {
-    big: 'w-full rounded-[13px] mt-[9px] text-[14px] font-normal py-[17px] px-6 ',
+    big: 'w-full rounded-[13px] mt-[9px] text-[14px] lg:text-[16px] font-normal py-[17px] px-6 ',
     width: 'w-full rounded-[17px] lg:rounded-[20px] text-[16px] font-medium py-[16px] md:py-[17px]',
     normal: 'rounded-[13px] lg:rounded-[21px] text-[14px] lg:text-[16px] font-normal py-[16px] px-3 md:px-12 xl:py-[20px] lg:px-10 xl:px-12 2xl:px-16',
     small: 'rounded-[17px] xl:rounded-[20px] py-[15px] px-3 lg:py-[13px] xl:py-[13px] 2xl:py-[13px] xl:px-6 text-[12px] xl:text-[14px] lg:text-[12px] 2xl:text-[15px]',
+    default: 'rounded-[13px] lg:rounded-[13px] text-[16px] lg:text-[16px] font-normal py-[10px] px-[21px]',
 };
 
 

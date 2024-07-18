@@ -8,7 +8,7 @@ import React, { ReactNode } from 'react';
  */
 const MainContainer = ({ children }: { children: ReactNode }) => {
     return (
-        <div className="mt-[100px] lg:mt-[150px] lg:ml-[1%] xl:ml-[1%] ">
+        <div className="mt-[100px] lg:mt-[150px] lg:ml-[2.4%] xl:ml-[2.4%] ">
             {children}
         </div>
     );

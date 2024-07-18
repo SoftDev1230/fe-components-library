@@ -10,7 +10,7 @@ interface SectionGridProps<T extends Record<string, ReactNode>> {
 
 const SectionGrid = <T extends Record<string, ReactNode>,>({ headers, data, newAction }: SectionGridProps<T>) => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-[12px] md:gap-[16px] xl:gap-[20px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 gap-[12px] md:gap-[24px] xl:gap-[36px] 3xl:gap-[47px]">
             {data.map((input, index) =>
                 <SectionCard
                     key={index}

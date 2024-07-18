@@ -41,21 +41,21 @@ const MainTopbar = (props: MainTopBarProps) => {
                         <div className="flex flex-row justify-center items-center gap-x-4">
                             <a href="/"> <img src={logo} alt="logo" className="w-[25px]"/> </a>
                             <p className="uppercase text-[18px]">
-                                RTK <span className="gradient-text ml-2 text-[18px] "> Direct Cloud  </span>
+                                RTK <span className="gradient-text ml-2 text-[20.42px] font-semibold"> Direct Cloud  </span>
                             </p>
                         </div>
                     </div>
                 </div>
             </header>
             <header
-                className="hidden lg:block border-r rounded-[18.721px] bg-[rgba(32,32,32,0.63)] border-[0.9px] border-solid border-[rgba(78,78,78,0.36)] fixed top-0 left-0 w-full lg:w-[76%] xl:w-[74%] z-10 lg:ml-[22.5%] xl:ml-[24.5%] md:mt-[20px] md:mr-[1%] h-auto topbar-map-custom-z">
+                className="hidden lg:block border-r rounded-[18.721px] bg-[rgba(32,32,32,0.63)] border-[0.9px] border-solid border-[rgba(78,78,78,0.36)] fixed top-0 left-0 w-full lg:w-[76%] xl:w-[74%] z-10 lg:ml-[23.5%] xl:ml-[25.5%] md:mt-[20px] md:mr-[1%] h-auto topbar-map-custom-z">
                 <nav className="flex justify-between items-center lg:px-4 xl:px-5 2xl:px-8">
                     <div className="flex-1 flex justify-center items-center lg:gap-x-3.5 xl:gap-x-4 2xl:gap-x-6">
                         {links.map(({name, url}, index) => (
                             <Link
                                 key={index+"a"}
                                 to={url}
-                                className={`hover:text-white lg:text-[13px] xl:text-[15px] 2xl:text-[16px] py-[22px] font-normal ${
+                                className={`hover:text-white lg:text-[13px] xl:text-[16px] 2xl:text-[20px] py-[22px] font-normal ${
                                     location.pathname === url
                                         ? "gradient-text border-b border-[#4AFC2D]"
                                         : "text-white border-b border-transparent"
