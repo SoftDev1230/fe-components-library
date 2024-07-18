@@ -7,7 +7,7 @@ const MobileSidebar = ({name, children}: any) => {
     if (loggedIn) return (
         <div
             className={`absolute bottom-[87px] left-0 block lg:hidden w-full mobile-sidebar-bg ${expanded ? 'expand-height overflow-auto' : 'contract-height'}`}>
-            <div className="px-4 xl:px-6 mb-[30px] sidebar-mobile-rinex pt-[10px] lg:pt-0">
+            <div className="px-6 mb-[30px] sidebar-mobile-rinex pt-[12px] lg:pt-0">
                 <div className="flex justify-center mb-2.5 lg:hidden">
                     {expanded ? (
                         <div onClick={() => setExpanded(false)}>
@@ -63,7 +63,7 @@ const MobileSidebar = ({name, children}: any) => {
                     )}
                 </div>
                 {name &&
-                    <p className="text-light-white text-[15px] mb-1.5 text-center font-semibold block lg:hidden">  {name}</p>}
+                    <p className="text-light-white text-[15px] mb-1.5 text-center block lg:hidden">  {name}</p>}
                 {children}
             </div>
         </div>
