@@ -52,7 +52,7 @@ const Layout = ({ name, shared, sidebar, sidebarBg = true, main, mobileSidebar, 
                 
                 <div className="flex-1 overflow-x-hidden h-full">
                     
-                    <main className="overflow-y-auto h-full z-40 lg:ml-[22%] xl:ml-[24%]">
+                    <main className="overflow-y-auto h-full z-40 lg:ml-[22%] xl:ml-[25%]">
                         {fullScreen ? main : <MainContainer>{main}</MainContainer>}
                     </main>
                 </div>
