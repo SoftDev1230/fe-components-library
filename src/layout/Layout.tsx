@@ -36,20 +36,22 @@ const Layout = ({ name, shared, sidebar, sidebarBg = true, main, mobileSidebar, 
 
     return (
         <div className="flex flex-col justify-between h-screen overflow-hidden relative w-max-[1920px]">
-            <div className="overflow-auto z-50 h-full">
-                <Sidebar
+            <Sidebar
                     isSidebarOpen={isSidebarOpen}
                     toggleSidebar={toggleSidebar}
                     blackBackground={sidebarBg}
                     name={name}
                     title={shared.sidebarTitle}>
                     {sidebar}
-                </Sidebar>
+            </Sidebar>
+            <MainTopbar
+                toggleSidebar={toggleSidebar}
+                isSidebarOpen={isSidebarOpen}
+                {...shared} />
+            <div className="overflow-auto z-50 h-full">
+                
                 <div className="flex-1 overflow-x-hidden h-full">
-                    <MainTopbar
-                        toggleSidebar={toggleSidebar}
-                        isSidebarOpen={isSidebarOpen}
-                        {...shared} />
+                    
                     <main className="overflow-y-auto h-full z-40 lg:ml-[22%] xl:ml-[24%]">
                         {fullScreen ? main : <MainContainer>{main}</MainContainer>}
                     </main>

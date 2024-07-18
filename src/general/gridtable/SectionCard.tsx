@@ -33,7 +33,7 @@ const SectionCard = ({ indicator, title, editAction, fields, button }: SectionCa
                         <p className="text-[12px] lg:text-[14px] text-lightest-white font-normal">
                             {field.name}
                         </p>
-                        <p className={`text-[14px] lg:text-[16px] font-medium break-words capitalize${field.colored && " gradient-text"}`}>
+                        <p className={`text-[14px] lg:text-[16px] font-medium break-words break-all capitalize${field.colored && " gradient-text"}`}>
                             {field.value}
                         </p>
                     </div>)}

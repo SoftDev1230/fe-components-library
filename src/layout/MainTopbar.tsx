@@ -41,7 +41,7 @@ const MainTopbar = (props: MainTopBarProps) => {
                         <div className="flex flex-row justify-center items-center gap-x-4">
                             <a href="/"> <img src={logo} alt="logo" className="w-[25px]"/> </a>
                             <p className="uppercase text-[18px]">
-                                RTK <span className="gradient-text ml-2 text-[18px] "> Direct Cloud  </span>
+                                RTK <span className="gradient-text ml-2 text-[20.42px] font-semibold"> Direct Cloud  </span>
                             </p>
                         </div>
                     </div>
