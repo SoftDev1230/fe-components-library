@@ -18,8 +18,9 @@ const MobileMenu = (props: MobileMenuProps) => {
             {props.links.map(({name, url, activeSVG, passiveSVG}, index) =>
                 <Link key={index} to={url} className="flex flex-col items-center gap-y-2 custom-mobile-menu-link">
                     <div>{location.pathname === url ? (<>{activeSVG}</>) : (<>{passiveSVG}</>)}</div>
-                    <p className="text-white text-[14px] font-normal">{name} </p>
-                    {/* <p className={`text-white text-[14px] font-normal  ${location.pathname === url ? "gradient-text" : "text-white"}`}>{name} </p> */}
+                    <p className={`${location.pathname === url ? 'gradient-text' : 'text-white'} text-[14px] font-normal`}>
+                        {name}
+                    </p>
                 </Link>)}
         </div>
     );
