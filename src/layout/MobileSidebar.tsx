@@ -6,7 +6,7 @@ const MobileSidebar = ({name, children}: any) => {
 
     if (loggedIn) return (
         <div
-            className={`absolute bottom-[87px] left-0 block lg:hidden w-full mobile-sidebar-bg ${expanded ? 'expand-height overflow-auto' : 'contract-height'}`}>
+            className={`absolute bottom-[10px] left-0 block lg:hidden w-full mobile-sidebar-bg ${expanded ? 'expand-height overflow-auto' : 'contract-height'}`}>
             <div className="px-6 mb-[30px] sidebar-mobile-rinex pt-[12px] lg:pt-0">
                 <div className="flex justify-center mb-2.5 lg:hidden">
                     {expanded ? (

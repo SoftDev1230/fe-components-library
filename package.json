@@ -1,5 +1,5 @@
 {
-  "name": "@surveying-hub-bv/fe-component-library",
+  "name": "fe-component-library",
   "version": "0.2.14",
   "description": "A shared component library for all Surveying hub projects.",
   "main": "dist/index.js",
@@ -10,6 +10,10 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoftDev1230/fe-components-library.git"
   },
   "scripts": {
     "build": "webpack",

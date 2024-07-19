@@ -23,7 +23,7 @@ const SectionGrid = <T extends Record<string, ReactNode>,>({ headers, data, newA
                         }
                     })}
                     button={{ text: input.actionButton.text, action: input.actionButton.action, colored: input.actionButton.color }} />)}
-            {newAction && <button className="bg-[#202020] rounded-[24px] py-[20px] lg:py-[30px] relative" style={{
+            {newAction && <button className="bg-[#202020] rounded-[24px] py-[20px] lg:py-[30px] relative min-h-[340px]" style={{
                 // backgroundImage: "url(\"data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e %3cdefs%3e %3clinearGradient id='gradient' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3e %3cstop offset='0%25' stopColor='%234afc2d' /%3e%3cstop offset='100%25' stopColor='%231ea707' /%3e%3c/linearGradient%3e %3c/defs%3e %3crect width='100%25' height='100%25' fill='none' rx='24' ry='24' stroke='url(%23gradient)' stroke-width='3' stroke-dasharray='10%2c 16' stroke-dashoffset='30' stroke-linecap='square'/%3e%3c/svg%3e\")"
                 backgroundImage: "url(\"data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e %3cdefs%3e %3clinearGradient id='gradient' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3e %3cstop offset='0%25' stop-color='%234AFC2D' /%3e %3cstop offset='100%25' stop-color='%231EA707' /%3e %3c/linearGradient%3e %3c/defs%3e %3crect width='100%25' height='100%25' fill='none' rx='24' ry='24' stroke='url(%23gradient)' stroke-width='3' stroke-dasharray='10%2c 16' stroke-dashoffset='30' stroke-linecap='square'/%3e %3c/svg%3e\")"
             }} onClick={newAction.action}>

@@ -54,7 +54,7 @@ image, picture, svg, video {
 }
 
 .expand-height {
-  height: calc(100vh - (163px + 65px));
+  height: calc(100vh - (80px + 0px));
   transition: height 0.5s ease;
 }
 
