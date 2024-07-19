@@ -1,5 +1,5 @@
 {
-  "name": "@SoftDev1230/fe-component-library",
+  "name": "@SoftDev1230/fe-components-library",
   "version": "0.2.14",
   "description": "A shared component library for all Surveying hub projects.",
   "main": "dist/index.js",
