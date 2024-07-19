@@ -1,5 +1,5 @@
 {
-  "name": "fe-component-library",
+  "name": "@SoftDev1230/fe-component-library",
   "version": "0.2.14",
   "description": "A shared component library for all Surveying hub projects.",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "src/App.css"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@SoftDev1230:registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
