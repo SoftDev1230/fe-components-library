@@ -9,7 +9,7 @@
     "src/App.css"
   ],
   "publishConfig": {
-    "@SoftDev1230:registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
